@@ -1,0 +1,5 @@
+C:\Users\diluk\Documents\Hackathon.io\rangermobile_\RangerEntity\bin\Debug\RangerEntity.dll
+C:\Users\diluk\Documents\Hackathon.io\rangermobile_\RangerEntity\bin\Debug\RangerEntity.pdb
+C:\Users\diluk\Documents\Hackathon.io\rangermobile_\RangerEntity\obj\Debug\RangerEntity.csprojResolveAssemblyReference.cache
+C:\Users\diluk\Documents\Hackathon.io\rangermobile_\RangerEntity\obj\Debug\RangerEntity.dll
+C:\Users\diluk\Documents\Hackathon.io\rangermobile_\RangerEntity\obj\Debug\RangerEntity.pdb
