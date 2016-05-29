@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ranger.eyewer.com.ranger.Main.Fragments.Fragment_PanicView">
+
+    <RelativeLayout
+        android:id="@+id/panicView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="visible">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/panicMode_icon"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/flaticon_life"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/panicMode_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Panic Mode"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Need any help? We can alert your loved ones instantly and share your location"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <RelativeLayout
+                    android:id="@+id/panicBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/insta_button_20pad"
+                    android:layout_below="@+id/desc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:id="@+id/panicBtn_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Start Panic Mode"
+                        android:textSize="18sp"
+                        android:textColor="#696969"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/panicFamily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/panicBtn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Starting Panic Mode will alert your family about your location"
+                    android:textColor="#696969"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/panicFamily_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/panicFamily"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="Edit Panic Recipients"
+                    android:textColor="#FF5A60"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
